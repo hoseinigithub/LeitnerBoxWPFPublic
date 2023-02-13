@@ -85,7 +85,7 @@ namespace LeitnerBoxNew {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LeitnerBoxNew;V1.0.0.0;component/createcategory.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LeitnerBoxNew;component/createcategory.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CreateCategory.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-J:\Hoseini\MyProjects\LeitnerBox\LeitnerBoxNew\obj\Debug\net6.0-windows\
+J:\Hoseini\MyProjects\LeitnerBoxWPFPublic\LeitnerBoxNew\obj\Debug\net6.0-windows\
 LeitnerBoxNew
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-J:\Hoseini\MyProjects\LeitnerBox\LeitnerBoxNew\App.xaml
+J:\Hoseini\MyProjects\LeitnerBoxWPFPublic\LeitnerBoxNew\App.xaml
 3-566904236
 12071901899
 51776705090
-214266482771
+2141755803261
 CreateCard.xaml;CreateCategory.xaml;MainWindow.xaml;
 
 False
