@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LeitnerBox.png" />
+    <None Remove="Resource\Img\LeitnerBox.png" />
+    <None Remove="Resource\Img\no-card.gif" />
+    <None Remove="Resource\Img\plus.png" />
+    <None Remove="Resource\Img\Study.png" />
+    <None Remove="Resource\Img\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Img\LeitnerBox.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="LeitnerBox.png" />
+    <Resource Include="Resource\Img\plus.png" />
+    <Resource Include="Resource\Img\Study.png" />
+    <Resource Include="Resource\Img\trash.png" />
+    <Content Include="Resource\Img\no-card.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
